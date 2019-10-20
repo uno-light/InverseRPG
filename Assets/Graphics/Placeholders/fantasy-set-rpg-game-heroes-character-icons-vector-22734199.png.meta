@@ -1,0 +1,424 @@
+fileFormatVersion: 2
+guid: 29832e1d08a53504dab1f43e7e870338
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7899342257531920726
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_0
+  - first:
+      213: 4722128896427586754
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_1
+  - first:
+      213: -4314363662925544301
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_2
+  - first:
+      213: 2025319812572021352
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_3
+  - first:
+      213: 9128993320458468710
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_4
+  - first:
+      213: -8222870702489015698
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_5
+  - first:
+      213: 6671145966815203791
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_6
+  - first:
+      213: 2138109650598270492
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_7
+  - first:
+      213: -827235210300970178
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_8
+  - first:
+      213: -8381813000405283805
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_9
+  - first:
+      213: 137558461419893044
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_10
+  - first:
+      213: -2813987353237916976
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_11
+  - first:
+      213: 4265148558823702248
+    second: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_12
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 541
+        width: 201
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d6c729cc43ea144bc8e7246ba677d7
+      internalID: -7899342257531920726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 541
+        width: 188
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3922f6b555f349346bf3995bdbd707cb
+      internalID: 4722128896427586754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 541
+        width: 162
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c94627bcb73a24f828cb07ad14a506
+      internalID: -4314363662925544301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_3
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 542
+        width: 163
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00393939e57fc334ebce9484979e4e96
+      internalID: 2025319812572021352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 328
+        width: 175
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e192d96a0c3654db9bc20a88702fa7
+      internalID: 9128993320458468710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 327
+        width: 189
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3a71205b0d3e1419b6a166e600e46a
+      internalID: -8222870702489015698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_6
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 327
+        width: 182
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80012bfdb492eee4ab5a9c68d93bc48d
+      internalID: 6671145966815203791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_7
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 327
+        width: 166
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45279d8c009410f429eaa14d2726696c
+      internalID: 2138109650598270492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 114
+        width: 162
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5de2db97a80e8442a9cae735c694dc6
+      internalID: -827235210300970178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 114
+        width: 205
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cea6239447a99341afd07190990083d
+      internalID: -8381813000405283805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_10
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 114
+        width: 169
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296f921a1dd11864da1ca55922a27237
+      internalID: 137558461419893044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_11
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 114
+        width: 176
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735d20b0334225b4394f4c5c4d61834f
+      internalID: -2813987353237916976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy-set-rpg-game-heroes-character-icons-vector-22734199_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a3ca50761aab9499266b02971822bf
+      internalID: 4265148558823702248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 640442e10dcc476459b86fb75088d414
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
