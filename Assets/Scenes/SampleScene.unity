@@ -440,6 +440,8 @@ GameObject:
   - component: {fileID: 308895513}
   - component: {fileID: 308895515}
   - component: {fileID: 308895516}
+  - component: {fileID: 308895517}
+  - component: {fileID: 308895518}
   m_Layer: 0
   m_Name: Systems
   m_TagString: Untagged
@@ -518,7 +520,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 308895509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1454755423}
+  m_Script: {fileID: 11500000, guid: 241276ac27f431f47a200b031f7873b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &308895516
@@ -531,6 +533,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4802704fa02a1da4394962774b90c7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &308895517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308895509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671d9222dbd796443bafab01484de713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &308895518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308895509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea3aee8758896e42bbd80f3bc0cd3df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &519420028
@@ -767,20 +793,6 @@ MonoBehaviour:
   pride: 0
   safety: 0
   smart: 0
---- !u!115 &1454755423
-MonoScript:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 5
-  m_Script: 
-  m_DefaultReferences: {}
-  m_Icon: {fileID: 0}
-  m_ExecutionOrder: 0
-  m_ClassName: AssignRandomInitialHeroSocialStats
-  m_Namespace: InverseRPG
 --- !u!1 &1484733078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,14 +1068,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1979153854, guid: 7e0f2b184f6502c44941c70f99813d2f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -29.277588
-      objectReference: {fileID: 0}
-    - target: {fileID: 570597131, guid: 7e0f2b184f6502c44941c70f99813d2f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -32.256958
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e0f2b184f6502c44941c70f99813d2f, type: 3}
