@@ -1,11 +1,11 @@
-name: Unity Build and Upload to Dropbox
+name: Unity WebGL Build and Upload to GitHub Pages
 on:
   push:
     branches:
     - master
 jobs:
   webgl:
-    name: Unity WebGL Build, Upload to GitHub Pages
+    name: Unity WebGL Build and Upload to GitHub Pages
     runs-on: ubuntu-latest    
     steps:
     - uses: actions/checkout@v1
