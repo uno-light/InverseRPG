@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace ECSish
 {
-    public abstract class MonoBehaviourSystem : MonoBehaviour
+    public class MonoBehaviourSystem : MonoBehaviour
     {
         public IEnumerable<Tuple<T1>> GetEntities<T1>()
             where T1 : MonoBehaviourComponentData
@@ -13,6 +13,7 @@ namespace ECSish
             foreach (var gameObject in Entity.GetGameObjects<T1>())
             {
                 if (!gameObject) continue;
+                if (gameObject.scene.handle != this.gameObject.scene.handle && this.gameObject.scene.handle != DontDestroyOnLoadScene.Scene.handle) continue;
                 var component1 = gameObject.GetComponent<T1>(false);
                 yield return new Tuple<T1>(component1);
             }
@@ -27,6 +28,7 @@ namespace ECSish
             foreach (var gameObject in g1.Intersect(g2))
             {
                 if (!gameObject) continue;
+                if (gameObject.scene.handle != this.gameObject.scene.handle && this.gameObject.scene.handle != DontDestroyOnLoadScene.Scene.handle) continue;
                 var component1 = gameObject.GetComponent<T1>(false);
                 var component2 = gameObject.GetComponent<T2>(false);
                 yield return new Tuple<T1, T2>(component1, component2);
@@ -44,6 +46,7 @@ namespace ECSish
             foreach (var gameObject in g1.Intersect(g2).Intersect(g3))
             {
                 if (!gameObject) continue;
+                if (gameObject.scene.handle != this.gameObject.scene.handle && this.gameObject.scene.handle != DontDestroyOnLoadScene.Scene.handle) continue;
                 var component1 = gameObject.GetComponent<T1>(false);
                 var component2 = gameObject.GetComponent<T2>(false);
                 var component3 = gameObject.GetComponent<T3>(false);
@@ -64,6 +67,7 @@ namespace ECSish
             foreach (var gameObject in g1.Intersect(g2).Intersect(g3).Intersect(g4))
             {
                 if (!gameObject) continue;
+                if (gameObject.scene.handle != this.gameObject.scene.handle && this.gameObject.scene.handle != DontDestroyOnLoadScene.Scene.handle) continue;
                 var component1 = gameObject.GetComponent<T1>(false);
                 var component2 = gameObject.GetComponent<T2>(false);
                 var component3 = gameObject.GetComponent<T3>(false);

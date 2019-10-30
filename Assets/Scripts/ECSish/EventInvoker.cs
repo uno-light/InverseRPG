@@ -5,6 +5,7 @@ namespace Asteroids
 {
     public class EventInvoker : MonoBehaviour
     {
+        public GameObject entity;
         public MonoBehaviourComponentData componentEvent;
 
         private void OnValidate()
@@ -14,6 +15,7 @@ namespace Asteroids
 
         public void Invoke()
         {
+            var gameObject = entity ? entity : this.gameObject;
             var type = componentEvent.GetType();
             var newEventInstance = (MonoBehaviourComponentData)gameObject.AddComponent(type);
 
